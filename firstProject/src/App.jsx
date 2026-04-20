@@ -1,9 +1,9 @@
 import "./App.css";
-import MovieCard from "./components/MovieCard";
+import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <MovieCard movie={{ title: "Nawoda's Film", release_date: "2026" }} />
+      <Home />
     </>
   );
 }
